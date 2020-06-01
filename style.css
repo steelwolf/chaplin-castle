@@ -11,3 +11,46 @@
  License: GNU General Public License version 2.0
  License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
+
+/*body::before {
+  content: "";
+	background: url('castello_pattern.svg');
+  background-size: 400px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.08;
+}
+.cover-color-overlay::before {
+  background: currentColor;
+  background-image: url('castello_pattern.svg');
+  background-size: 400px;
+  content: "";
+  display: block;
+}*/
+
+.footer-icons a {
+	align-items: center;
+	color: inherit;
+	/*display: flex;*/
+	justify-content: center;
+	padding: 0;
+	text-decoration: none;
+	transition: color .15s linear, background-color .15s linear, box-shadow .15s linear, transform .15s linear;
+	width: 5.5rem;
+}
+
+.footer-icons a:hover,
+.footer-icons a:focus {
+	/*transform: scale( 1.15 );*/
+  color: inherit;
+	text-decoration: none;
+}
+
+.creative-commons a::before {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+  content: '\f25e\ \f4e7\ \f4ef';
+}
